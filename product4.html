@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+
+    <style>
+        body{
+            background-color: burlywood;
+            height: 50px;
+        }
+         nav{
+             background-color: whitesmoke;
+            height: 50px;
+        }
+          li:hover{
+            background-color: cornsilk;
+        }
+          ol{
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            margin: center;
+            margin-left: 500px;
+            margin-right: 500px;
+            
+        }
+        button{
+            margin-left: 100px;
+        }
+        li{
+            /* border: 1px solid rgb(185, 158, 106); */
+            padding: 5px;
+        }
+      
+       a{
+        padding-left: 70px;
+       }
+       #contact-container{
+       
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+.header {
+  background: #222;
+  color: #fff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header nav a {
+  color: #fff;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header nav a:hover,
+.header nav .active {
+  color: #ffcc00;
+}
+
+/* Contact Section */
+.contact-section {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.contact-section h2 {
+  text-align: center;
+  color: #444;
+}
+
+.contact-section p {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+/* Form Styles */
+.contact-form {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin: 5px 0 5px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border: 1px solid #ffcc00;
+}
+
+.contact-form button {
+  margin-top: 15px;
+  padding: 12px;
+  background: #ffcc00;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contact-form button:hover {
+  background: #e6b800;
+}
+
+/* Contact Info */
+.contact-info {
+  flex: 1;
+  min-width: 280px;
+}
+
+.contact-info h3 {
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.contact-info p {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 15px;
+  background: #222;
+  color: #fff;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+       }
+       
+        
+    </style>
+</head>
+<body> <nav>
+        <div>
+            <ol  style="list-style-type:none;">
+                <li><a href="./product.html">HOME</a></li>
+                <li><a href="./product2.html">ABOUT</a></li>
+                <li><a href="./product3.html">PRODUCT</a></li>
+                <li><a href="./product4.html">CONTACT</a></li>
+               
+            </ol>
+        </div>
+    </nav>
+   
+    <div id="contact-container">
+         <form class="contact-form">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" rows="5" placeholder="Type your message here..." required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+     <center>
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h3>Get in Touch</h3>
+        <p><strong>Address:</strong> 1452,Mettur Rd,Erode,Tamil Nadu-638011 </p>
+        <p><strong>Phone:</strong> +91 93601 23470</p>
+        <p><strong>Email:</strong> appu@phoneaccessories.com</p>
+        <p><strong>Working Hours:</strong> Mon - Sat: 9AM - 8PM</p>
+    </div>
+     </center>
+   
+ 
+</body>
+</html>
